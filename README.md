@@ -1,3 +1,2 @@
 # Elrisa-grupo-dwai
-
-Initial commit
+Repositório de práticas em grupo para a turma de Design Web 2024

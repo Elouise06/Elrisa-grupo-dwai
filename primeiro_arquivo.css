@@ -25,6 +25,19 @@ main{
 footer{
     display: flex;
 }
+
  .Redes{
     margin-left: 50%;
+    display: inline-block;
+
+ }
+ 
+ .Redes img{
+    width: 50px;
+ }
+
+ .Redes li{
+    list-style: none;
+    padding: 0;
+    margin-right: 600px;
  }

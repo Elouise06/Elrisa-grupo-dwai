@@ -1,0 +1,45 @@
+img{
+    margin-left: 40%;
+    width: 300px;
+}
+h1{
+    margin-top: 5%;
+    margin-left: 36.2%;
+    font-family: bold;
+    color: red;
+}
+main{
+    display: flex;
+}
+
+.introdução{
+    margin-left: 10%;
+    width: 40%;
+}
+
+.Serviços{
+    margin-left: 3%;
+    width: 40%;
+}
+
+footer{
+    display: flex;
+}
+
+ .Redes{
+    margin-left: 50%;
+    display: inline-block;
+
+ }
+ 
+ .Redes img{
+    width: 50px;
+ }
+
+ .Redes li{
+    list-style: none;
+    padding: 0;
+    margin-right: 600px;
+ }
+
+

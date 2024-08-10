@@ -1,10 +1,10 @@
 img{
-    margin-left: 40%;
+    margin-left: 600px;
     width: 300px;
 }
 h1{
-    margin-top: 5%;
-    margin-left: 695px;
+    margin-top: 50px;
+    margin-left: 550px;
     font-family: bold;
     color: red;
 }
@@ -13,26 +13,35 @@ main{
 }
 
 .introdução{
-    margin-left: 10%;
-    width: 40%;
+    color: white;
+    margin-left: 100px;
+    width: 400px;
     margin-bottom: 30px;
+    background: #c52b80;
+    padding: 20px;
+    border-radius: 30px;
 }
 
 .Serviços{
-    margin-left: 3%;
-    width: 40%;
+    color: white;
+    margin-left: 400px;
+    width: 400px;
     margin-bottom: 60px;
+    background: #c52b80;
+    padding: 20px;
+    border-radius: 30px;
 }
 
 footer{
     display: flex;
-    background: #F7A1D0;
+    background: #eb94c4;
+    margin: none;
     padding-bottom: 40px;
+    border-radius: 10px;
 }
 
- .Redes{
-    margin-left: 50%;
-    display: inline-block;
+ .Redes h2{
+    margin-left: 700px;
 
  }
  
@@ -53,22 +62,21 @@ footer{
     list-style: none;
  }
 
-.telefone{
-    margin-bottom: 20px;
-}
-
-.email{
+h3{
+    color: black;
     margin-bottom: 20px;
 }
 
 .seções{
+    margin-bottom: 100px;
     font-size: 21px;
     display: inline-flex;
-    margin-left: 720px;   
+    margin-left: 590px;   
 }
 
 .sobre{
     margin-right: 10px;
+    
 }
 
 .loja{

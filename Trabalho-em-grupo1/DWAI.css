@@ -1,0 +1,49 @@
+body{
+    background-color: #0F315C;
+    font-family: "Sora", sans-serif;
+}
+.texto h1{
+    padding-top: 200px;
+    font-size: 40px;
+    margin-left: 400px;
+    color: #4CC8FF;
+}
+.texto h1 div:nth-last-child(1){
+    margin-left: 185px;
+}
+
+.texto p{
+    font-size: 12px;
+    font-style: normal;
+    margin-left: 475px;
+    color: #ffff;
+}
+.texto p:nth-last-child(1){
+    margin-left: 540px;
+}
+
+
+
+
+footer{
+    padding: 0;
+    margin-top: 200px;
+    background: rgb(33,63,140);
+    background: linear-gradient(90deg, rgba(33,63,140,1) 50%, rgba(30,57,128,1) 69.17%, rgba(27,51,115,1) 100%);
+}
+footer p{
+    color: #ffff;
+    width: 300px;
+    margin-top: 50px;
+    margin-left: 280px;
+}
+.convite p{
+    line-height: 30px;
+    margin-bottom: 10px;
+}
+.destaque{
+    color: #FDB32F;
+}
+.convite strong{
+    color: #FDB32F;
+}

@@ -3,23 +3,22 @@ body{
     font-family: "Sora", sans-serif;
 }
 .texto h1{
-    padding-top: 200px;
+    padding-top: 282px;
     font-size: 40px;
-    margin-left: 400px;
+    margin-left: 750px;
     color: #4CC8FF;
 }
 .texto h1 div:nth-last-child(1){
     margin-left: 185px;
 }
-
 .texto p{
     font-size: 12px;
     font-style: normal;
-    margin-left: 475px;
+    margin-left: 830px;
     color: #ffff;
 }
 .texto p:nth-last-child(1){
-    margin-left: 540px;
+    margin-left: 895px;
 }
 
 
@@ -27,23 +26,39 @@ body{
 
 footer{
     padding: 0;
-    margin-top: 200px;
+    margin-top: 400px;
+    height: 300px;
     background: rgb(33,63,140);
     background: linear-gradient(90deg, rgba(33,63,140,1) 50%, rgba(30,57,128,1) 69.17%, rgba(27,51,115,1) 100%);
 }
 footer p{
     color: #ffff;
-    width: 300px;
-    margin-top: 50px;
+    margin: 0;
     margin-left: 280px;
+}
+.endereco{
+    display: inline-block;
+    position: absolute;
+}
+.email{
+    display: inline-block;
+}
+.email p strong{
+    margin: 0;
 }
 .convite p{
     line-height: 30px;
-    margin-bottom: 10px;
+    width: 300px;
+    margin-bottom: 100px;
 }
 .destaque{
     color: #FDB32F;
 }
 .convite strong{
     color: #FDB32F;
+}
+.midias{
+    display: inline-block;
+    margin-left: 450px;
+    position: absolute;
 }

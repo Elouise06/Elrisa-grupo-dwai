@@ -1,0 +1,76 @@
+body{
+    margin: 0;
+    background-color: #e9edf8;
+    font-family: sans-serif;
+}
+header{
+    background-color: #203C86;
+    height: 85px;
+    width: 100%;
+}
+.logo{
+    width: 140px;
+}
+header h4{
+    font-size: 9px;
+    color: #ffff;
+    position: relative;
+    margin-left: 960px;
+    bottom: 42px;
+}
+nav{
+    position: relative;
+    bottom: 70px;
+    margin-left: 1120px;
+}
+nav img:nth-last-child(3){
+    width: 35px;
+}
+nav img:nth-last-child(2){
+    margin-left: 30px;
+    width: 15px;
+}
+nav img:nth-last-child(1){
+    margin-left: 30px;
+    width: 25px;
+}
+header ul li{
+    height: 10px;
+    color: #ffff;
+    display: inline-block;
+    margin-left: 50px;
+}
+
+.cabecalho h1{
+    font-size: 20px;
+}
+
+
+.texto1{
+
+
+}
+.texto2{
+
+}
+.texto3{
+
+}
+.pipabranco{
+
+}
+.lista1{
+
+}
+.lista2{
+
+}
+.informcoes{
+
+}
+.texto4{
+
+}
+.final{
+
+}

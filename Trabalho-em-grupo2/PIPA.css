@@ -1,29 +1,30 @@
 body{
+    height: 500px;
     margin: 0;
-    background-color: #e9edf8;
-    font-family: 'Lato',sans-serif;
+    background-color: #ffffff;
+    font-family: "Lato", sans-serif;
 }
 header{
     background-color: #203C86;
-    height: 85px;
+    height: 90px;
     width: 100%;
 }
-header hr{
+.linha{
+    border-bottom: 0.5px #ffff solid;
     position: relative;
     width: 100%;
-    height: 1px;
-    bottom: 72px;
-    color: #ffff;
+    bottom: 65px;
+    opacity: 50%;
 }
 .logo{  
     position: relative;
     top: 45px;
     left: 350px;
-    width: 100px;
+    width: 90px;
 }
 header h4{
-    letter-spacing: 0.5px;
-    font-weight: lighter;
+    letter-spacing: 0.6px;
+    font-weight: 100;
     font-size: 9px;
     color: #ffff;
     position: relative;
@@ -49,138 +50,103 @@ nav img:nth-last-child(1){
 header ul{
     margin-left: 720px;
 }
-header ul li strong{
-    border-bottom: #FDB32F solid;
+.linha2{
+    border-bottom: 4px #FDB32F solid;
+    position: relative;
+    bottom: 59px;
+    width: 5%;
+    left: 53%;
 }
 header ul li{
     letter-spacing: 0.5px;
     font-weight: lighter;
     position: relative;
-    font-size: 14px;
+    font-size: 13.9px;
     color: #ffff;
     display: inline-block;
-    bottom: 75px;
+    bottom: 65px;
     margin-left: 50px;
 }
 
-.principal1 {
-    margin-top: 90px;
-    text-align: center;
-    margin-bottom: 50px;
-}
 
+.principal1{
+    margin-top: 5%;
+    margin-left: 33%;
+}
 .principal1 h1{
-    position: relative;
-    right: 112px;
+    font-size: 28px;
+    font-weight: 900;
+    font-style: normal;
+    letter-spacing: 0.5px;
 }
-
+.titulo1{
+    color: #2648A1;
+    font-style: italic;
+    margin-left: 16%;
+}
 .nome{
-    font-size: 15px;
+    color: #46515f;
+    font-weight: 600;
     position: relative;
-    left: 180px;
-    bottom: 50px;
+    bottom: 42px;
+    font-size: 10px;
+    margin-left: 40%;
+    letter-spacing: 0.9px;
 }
-
-.frase-efeito1{
-    font-weight: 400;
-    word-spacing: 5px;
-    font-size: 18px;
-    color: #2648A1;
-}
-.logo-principal img {
+.logoprincipal img{
     position: relative;
-    right: 180px;
-    width: 250px; 
-    margin: 20px 0;
+    width: 180px;
+    bottom: 20px;
 }
-.principal1 h1{
-    font-size: 30px;
-    font-weight: 800;
-    word-spacing: 5px;
-}
-
 .descricao1{
-    line-height: 26px;
-    display: inline-block;
-    max-width: 32%;
-    text-align: justify;
-    margin: 20px 0;
-    font-size: 16px;
-
+    font-weight: 500;
+    line-height: 28px;
+    color: #46515f;
+    width: 580px;
 }
 
+
+.principal2{
+    margin-top: 60px;
+    margin-left: 33%;
+}
 .titulo2{
-    align-items: center;
-    position: relative;
-    left: 430px;
     color: #2648A1;
-    line-height: 0;
-    text-align: left;
-    
 }
-
 .titulo2 p:nth-last-child(2){
-    font-size: 12px;
     position: relative;
-    left: 200px;
+    bottom: 20px;
+    letter-spacing: 0.5px;
+    font-size: 22px;
+    font-weight: 800;
 }
-
-.titulo2 p:nth-last-child(1){
-    font-weight: 700 ;
-    font-size: 20px;
+.titulo2 p{
+    font-weight: 600;
+    font-size: 13px;
+}
+.titulo2 hr{
+    color: #FDB32F;
+    border-bottom: 3px #FDB32F solid;
+    width: 8%;
     position: relative;
-    left: 200px;
-    border-bottom: #FDB32F;
+    right: 466px;
+    bottom: 37px;
 }
-
-.principal2 {
-    text-align: center;
-    margin-bottom: 50px;
+.descricao2 p{
+    font-weight: 500;
+    line-height: 28px;
+    color: #46515f;
+    width: 345px;
 }
-
-.principal2 h2 {
-    font-size: 24px;
-    color: #2648A1;
-}
-
-.principal2 h3 {
-    font-size: 20px;
-    color: #2648A1;
-    margin: 10px 0;
-}
-
-.descricao2 {
+.descricao2 img{
     position: relative;
-    right: 7px;
-    display: inline-block;
-    max-width: 32%;
-    align-items: center;
-    margin-top: 20px;
+    bottom: 285px;
+    left: 390px;
+    width: 38%;
 }
-
-.descricao2 p {
-    width: 60%;
-    text-align: justify;
-}
-
-.descricao2 img {
-    position: relative;
-    left: 300px;
-    bottom: 200px;
-    width: 350px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-.cor{
-    font-size: 100px;
-    color: #2648A1;
-}
-    
-
-
-.descricao2 figcaption {
+.legenda div{
     font-size: 16px;
-    border: #2648A1 solid 1px;
+    border: #2648A1 solid 1.5px;
     line-height: 10px;
     border-radius: 10px;
     border-top: none;
@@ -188,49 +154,84 @@ header ul li{
     padding-top: 1px;
     padding-left: 20px;
     padding-bottom: 20px;
-    width: 300px;
-    height: 47px;
+    width: 325px;
+    height: 30px;
     position: relative;
-    left: 440px;
-    bottom: 209px;
-    
-    
+    left: 410px;
+    bottom: 385px;
 }
-
-.principal3 h2 {
-    font-size: 24px;
+.legenda h3{
+    font-size: 16px;
+    font-weight: 900;
     color: #2648A1;
-
+    position: relative;
+    left: 425px;
+    bottom: 298px;
 }
-.principal3 h3 {
-    font-size: 20px;
+.legenda p{
+    font-size: 12px;
+    font-weight: 400;
     color: #2648A1;
-    margin: 10px 0;
+    position: relative;
+    left: 425px;
+    bottom: 320px;
 }
 
-.image-box {
-    width: 24%;
-    text-align: center;
-    margin-bottom: 20px;
-}
 
-.image-box img {
-    width: 50%;
+.principal3{
+    margin-left: 33%;
+}
+.principal3 h2{
+    position: relative;
+    bottom: 300px;
+    color: #2648A1;
+    font-size: 10px;
+    font-weight: 400;
+}
+.principal3 h3{
+    color: #2648A1;
+    position: relative;
+    bottom: 320px;
+    font-size: 19px;
+    font-weight: 900;
+}
+.imagens-grid{
+    position: relative;
+    bottom: 330px;
+}
+.imagem-box{
+    display: inline-block;
+}
+.imagem-box img {
+    position: relative;
+    right: 210px;
+    width: 201px;
     border-radius: 8px;
     box-shadow: #001736;
 }
-.image-grid{
-    display: inline-block;
-    align-items: center;
-}
-.image-box p {
-    margin-top: 8px;
+.imagem-box h4 {
+    position: relative;
+    font-weight: 900;
+    right: 210px;
+    bottom: 20px;
     font-size: 14px;
     color: #555;
 }
+.imagem-box p{
+    position: relative;
+    font-weight: 400;
+    right: 210px;
+    bottom: 40px;
+    font-size: 10px;
+    color: #555;
+}
+
 
 footer{
     background: linear-gradient(130deg, #0D3F82 23.84%, #001736 73.02%);
+    height: 440px;
+    position: relative;
+    top: -320px;
 }
 .pipabranco{
     position: relative;
@@ -239,7 +240,7 @@ footer{
     top: 95px;
 }
 footer ul{
-    line-height: 30px;
+    line-height: 25px;
     font-weight: lighter;
     list-style: none;
     position: relative;
@@ -266,18 +267,54 @@ footer ul{
     font-weight: 300;
     line-height: 20px;
     position: relative;
+    bottom: 25px;
     left: 290px;
     width: 250px;
     font-size: 12px;
     color: #ffff;
 }
+.icon img:nth-last-child(3){
+    position: relative;
+    width: 12px;
+    left: 265px;
+    bottom: 135px;
+}
+.icon img:nth-last-child(2){
+    position: relative;
+    width: 14px;
+    left: 250px;
+    bottom: 85px;
+}
+.icon img:nth-last-child(1){
+    position: relative;
+    width: 13px;
+    left: 235px;
+    bottom: 55px;
+}
+.social{
+    display: inline-block;
+    margin-left: 290px;
+    position: relative;
+    bottom: 20px;
+}
+.social img:nth-last-child(1){
+    width: 10px;
+    margin-left: 10px;
+}
+.social img:nth-last-child(2){
+    width: 15px;
+    margin-left: 10px;
+}
+.social img:nth-last-child(3){
+    width: 20px;
+}
 .texto4{
     font-size: 10px;
     line-height: 20px;
     letter-spacing: 0.5px;
-    bottom: 120px;
+    bottom: 140px;
     left: 600px;
-    width: 350px;
+    width: 370px;
     position: relative;
     font-weight: light;
     color: #ffff;
@@ -286,13 +323,15 @@ footer ul{
     background-color: #ffff;
     position: relative;
     border-radius: 6px;
-    bottom: 370px;
+    bottom: 390px;
     left: 1040px;
-    width: 190px;
-    height: 190px;
+    width: 215px;
+    height: 215px;
 }
 .final h2{
     position: relative;
+    color: #1b1d1fe9;
+    font-weight: 900;
     top: 20px;
     left: 20px;
     font-size: 16px;
@@ -300,8 +339,34 @@ footer ul{
 }
 .final p{
     position: relative;
+    color: #888585d2;
+    font-weight: 400;
     top: 30px;
     left: 20px;
     font-size: 10px;
     width: 160px;
+}
+.telegram{
+    background-color: #36a8ff;
+    border-radius: 2px;
+    position: relative;
+    bottom: 450px;
+    left: 1056px;
+    width: 11%;
+    height: 30px;
+}
+.telegram img{
+    position: relative;
+    top: 5px;
+    left: 15px;
+    width:12px;
+}
+.telegram p{
+    position: relative;
+    bottom: 20px;
+    left: 40px;
+    width:  100%;
+    font-size: 10px;
+    font-weight: 700;
+    color: #ffffff;
 }

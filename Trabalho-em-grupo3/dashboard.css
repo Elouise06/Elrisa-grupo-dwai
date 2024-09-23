@@ -1,0 +1,155 @@
+body {
+    background-color: #f1f1f1;
+    margin: 0;
+    font-family: 'Inter';
+}
+
+.header1 {
+    background-color: #0C2A43;
+    color: #ffff;
+    height: 45px;
+    width: 100%;
+    padding-top: 10px;
+}
+
+.header1 figure {
+    position: relative;
+    bottom: 10px;
+    left: 120px;
+}
+
+.header1 h1 {
+    font-size: 18px;
+    margin-left: 198px;
+    margin-top: -54px;
+}
+
+.header1 h2 {
+    font-size: 14px;
+    margin-left: 80%;
+    margin-top: -32px;
+    font-weight: 600;
+}
+
+.header2 {
+    background-color: #ffffff;
+    color: #0C2A43;
+    height: 45px;
+    width: 100%;
+    padding-top: 10px;
+}
+
+.header2 ul {
+    margin-top: 8px;
+    margin-left: 80px;
+}
+
+.header2 ul li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 70px;
+    font-weight: 400;
+}
+
+.header2 ul li:nth-last-child(1) {
+    margin-left: 675px;
+    font-weight: 700;
+}
+
+.header2 ul li:nth-last-child(4) {
+    color: #027A48;
+    font-weight: 700;
+}
+
+.bg1 {
+    background-color: #ffffff;
+    width: 40%;
+    padding-top: 1px;
+    border-radius: 8px;
+    margin-top: 50px;
+    margin-left: 50px;
+    box-shadow: 0px 5px 10px #8b8787;
+}
+
+.bg1 h1 {
+    color: #12B76A;
+    font-size: 90px;
+    margin-left: 45px;
+    margin-top: 20px;
+}
+
+.bg1 h2 {
+    color: #0C2A43;
+    font-size: 26px;
+    margin-top: -160px;
+    margin-left: 130px;
+    margin-bottom: 120px;
+}
+
+.bg1 p {
+    color: #656D77;
+    margin-left: 90px;
+    margin-bottom: 50px;
+}
+
+.bg1 p:nth-last-child(7) {
+    font-size: 15px;
+    margin-top: -85px;
+    margin-left: 130px;
+    margin-bottom: 90px;
+}
+
+.bg1 hr {
+    margin-top: -35px;
+}
+
+.bg1 strong {
+    color: #56595d;
+    font-weight: 600;
+}
+
+.bg1 ul {
+    color: #56595d;
+    background-color: #F1F1F1;
+    box-shadow: 0px 0px 5px #dddbdb;
+
+}
+
+.bg1 ul li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 20px;
+    font-size: 14px;
+    line-height: 25px;
+}
+
+.bg1 ul li:nth-child(2) {
+    width: 20%;
+}
+
+.bg1 p:nth-last-child(6) {
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.bg1 p:nth-last-child(4) {
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+.bg1 p:nth-last-child(2){
+    font-size: 14px;
+    margin-bottom: -20px;
+    margin-left: 40px
+}
+.bg1 button {
+    color: #ffff;
+    font-weight: 600;
+    font-size: 10px;
+    background-color: #12B76A;
+    border: none;
+    border-radius: 2px;
+    height: 30px;
+    width: 180px;
+    margin-left: 400px;
+    margin-bottom: 20px;
+}

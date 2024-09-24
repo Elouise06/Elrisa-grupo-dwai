@@ -1,8 +1,7 @@
 body {
     background-color: #f1f1f1;
-    margin: 0;
     font-family: 'Inter';
-    width: 90%;
+    margin: 0;
 }
 
 .header1 {
@@ -10,6 +9,7 @@ body {
     color: #ffff;
     height: 45px;
     width: 100%;
+    margin-right: 0;
     padding-top: 10px;
 }
 
@@ -62,12 +62,12 @@ body {
     font-weight: 700;
 }
 
-.casinha-inicial{
+.casinha-inicial {
     position: relative;
     bottom: 9px;
     left: 110px;
     width: 20px;
-    
+
 }
 
 .bg1 {
@@ -145,11 +145,13 @@ body {
     margin-top: 30px;
     margin-bottom: 50px;
 }
-.bg1 p:nth-last-child(2){
+
+.bg1 p:nth-last-child(2) {
     font-size: 14px;
     margin-bottom: -20px;
     margin-left: 40px
 }
+
 .bg1 button {
     color: #ffff;
     font-weight: 600;
@@ -163,43 +165,46 @@ body {
     margin-bottom: 20px;
 }
 
+
 .bg2 {
+    margin-left: 800px;
+    margin-top: -400px;
     background-color: white;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     width: 350px;
     padding: 20px;
-  }
+}
 
-  .bg2-titulo {
+.bg2-titulo {
     font-size: 18px;
     color: #56595d;
     margin: 0;
     padding-bottom: 10px;
     border-bottom: 1px solid;
-  }
+}
 
-  .bg2 p {
+.bg2 p {
     font-size: 14px;
     color: #3a3131;
     line-height: 1.5;
-  }
+}
 
-  .bg2 a {
+.bg2 a {
     color: #000000;
-  }
+}
 
-  .bg2 a:hover {
+.bg2 a:hover {
     text-decoration: underline;
-  }
+}
 
-  .bg2 p:first-of-type {
+.bg2 p:first-of-type {
     color: #000000;
     font-weight: bold;
     font-size: 16px;
-  }
+}
 
-  .bg2 button {
+.bg2 button {
     display: inline-block;
     margin-top: 15px;
     padding: 8px 16px;
@@ -209,13 +214,14 @@ body {
     color: #67b167;
     font-size: 14px;
     cursor: pointer;
-  }
+}
 
-  .bg2 button:hover {
+.bg2 button:hover {
     background-color: #67b167;
     color: white;
+}
 
-footer{
+footer {
     padding: 10px 20px;
     position: fixed;
     bottom: 0;
@@ -223,32 +229,31 @@ footer{
     box-sizing: border-box;
 }
 
-.footer-left{
+.footer-left {
     float: left;
     font-size: 16px;
     margin-left: 35px;
-  }
+}
 
-.footer-right{
+.footer-right {
     float: right;
     font-size: 14px;
     margin-right: 50px;
 }
 
-.footer-right a{
+.footer-right a {
     margin-left: 15px;
     text-decoration: none;
     color: black;
 }
 
-  .footer-right a:hover{
+.footer-right a:hover {
     text-decoration: underline;
 }
 
 
-footer::after{
+footer::after {
     content: "";
     display: table;
     clear: both;
 }
-    

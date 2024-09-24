@@ -169,49 +169,49 @@ body {
 
 
 .bg2 {
-    margin-left: 800px;
-    margin-top: -400px;
-    background-color: white;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    width: 350px;
-    padding: 20px;
+    background-color: #ffffff;
+    width: 25%;
+    height: 300px;
+    padding-top: 1px;
+    border-radius: 8px;
+    margin-top: -494px;
+    margin-left: 700px;
+    box-shadow: 0px 1px 10px #e3e1e1;
 }
 
-.bg2-titulo {
-    font-size: 18px;
-    color: #56595d;
-    margin: 0;
+.bg2 h1 {
+    font-size: 20px;
+    color: #0C2A43;
+    margin-top: 15px;
+    margin-left: 45px;
+    font-weight: 600;
     padding-bottom: 10px;
 }
 
 .bg2 hr{
-    margin-top: -35px;
+    margin-top: 20px;
 }
 
 .bg2 p {
     font-size: 14px;
-    color: #3a3131;
+    color: #656D77;
     line-height: 1.5;
+    margin-left: 20px;
+}
+.bg2 p:nth-last-child(3){
+    color: #12B76A;
 }
 
 .bg2 a {
     color: #000000;
+    font-weight: 500;
 }
 
-.bg2 a:hover {
-    text-decoration: underline;
-}
-
-.bg2 p:first-of-type {
-    color: #000000;
-    font-weight: bold;
-    font-size: 16px;
-}
 
 .bg2 button {
     display: inline-block;
-    margin-top: 15px;
+    margin-left: 240px;
+    margin-top: 45px;
     padding: 8px 16px;
     background-color: white;
     border: 1px solid #67b167;
@@ -221,44 +221,10 @@ body {
     cursor: pointer;
 }
 
-.bg2 button:hover {
-    background-color: #67b167;
-    color: white;
-}
-
 footer {
     padding: 10px 20px;
     position: fixed;
     bottom: 0;
     width: 100%;
     box-sizing: border-box;
-}
-
-.footer-left {
-    float: left;
-    font-size: 16px;
-    margin-left: 35px;
-}
-
-.footer-right {
-    float: right;
-    font-size: 14px;
-    margin-right: 50px;
-}
-
-.footer-right a {
-    margin-left: 15px;
-    text-decoration: none;
-    color: black;
-}
-
-.footer-right a:hover {
-    text-decoration: underline;
-}
-
-
-footer::after {
-    content: "";
-    display: table;
-    clear: both;
 }

@@ -1,7 +1,9 @@
+
 body {
     background-color: #f1f1f1;
     font-family: 'Inter';
     margin: 0;
+    overflow-x: hidden; /* Evita rolagem horizontal */
 }
 
 .header1 {

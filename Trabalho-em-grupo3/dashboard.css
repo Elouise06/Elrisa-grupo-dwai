@@ -2,7 +2,10 @@ body {
     background-color: #f1f1f1;
     font-family: 'Inter';
     margin: 0;
-    overflow-x: hidden; /* Evita rolagem horizontal */
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    /* Evita rolagem horizontal */
 }
 
 .header1 {
@@ -42,7 +45,7 @@ body {
 }
 
 .header2 ul {
-    margin-top: -57px;
+    margin-top: -72px;
     margin-left: 80px;
 }
 
@@ -54,11 +57,13 @@ body {
 }
 
 .header2 ul li:nth-last-child(1) {
-    margin-left: 915px;
     font-weight: 700;
     border: #dfdfdf solid 1px;
-    padding: 8px 40px;
-    border-radius: 6px;
+    padding: 10px 46px;
+    border-radius: 5px;
+    position: relative;
+    top: 1px;
+    left: 560px;
 }
 
 .header2 ul li:nth-last-child(4) {
@@ -66,54 +71,56 @@ body {
     font-weight: 700;
 }
 
-.setaprabaixo{
+.setaprabaixo {
     position: relative;
     width: 14px;
-    left: 1400px;
-    bottom: 8px;
+    left: 1125px;
+    bottom: 10px;
 }
-.usuario{
+
+.usuario {
     position: relative;
-    width: 14px;
-    left: 1290px;
-    bottom: 7px;
+    width: 18px;
+    left: 1000px;
+    bottom: 5px;
 }
 
 .casinha-inicial {
     position: relative;
-    bottom: 9px;
-    left: 115px;
+    bottom: 26px;
+    left: 116px;
     width: 20px;
 
 }
-.documento{
+
+.documento {
     position: relative;
-    bottom: 9px;
+    bottom: 17px;
     left: 250px;
-    width: 13px;
+    width: 32px;
 }
 
-.ajuda{
+.ajuda {
     position: relative;
-    bottom: 9px;
-    left: 425px;
-    width: 13px;
+    bottom: 20px;
+    left: 410px;
+    width: 32px;
 }
 
-.saida{
+.saida {
     position: relative;
-    bottom: 9px;
-    width: 19px;
-    left: 1410px;
+    bottom: 16px;
+    width: 32px;
+    left: 1095px;
 }
 
 .bg1 {
     background-color: #ffffff;
-    width: 40%;
+    width: 42%;
     padding-top: 1px;
     border-radius: 8px;
     margin-top: 50px;
-    margin-left: 50px;
+    margin-left: 155px;
     box-shadow: 0px 5px 10px #8b8787;
 }
 
@@ -132,19 +139,25 @@ body {
     margin-bottom: 120px;
 }
 
+.bg1 p img{
+    position: relative;
+    width: 26px;
+    top: 6px;
+    right: 5px;
+}
 .bg1 p {
     color: #656D77;
     margin-left: 90px;
     margin-bottom: 50px;
 }
 
-.linhavertical{
+.linhavertical {
     position: relative;
     width: 34px;
     size: 100px;
     transform: rotate(90deg);
-    top: 308px;
-    right: 700px;
+    top: 323px;
+    right: 415px;
 }
 
 .bg1 p:nth-last-child(7) {
@@ -166,14 +179,15 @@ body {
 .bg1 ul {
     color: #56595d;
     background-color: #F1F1F1;
-    box-shadow: 0px 0px 5px #dddbdb;
+    padding: 8px;
+    box-shadow: 0px 0px 8px #cbc7c7;
 
 }
 
 .bg1 ul li {
     list-style: none;
     display: inline-block;
-    margin-left: 20px;
+    margin-left: 35px;
     font-size: 14px;
     line-height: 25px;
 }
@@ -214,11 +228,11 @@ body {
 
 .bg2 {
     background-color: #ffffff;
-    width: 25%;
+    width: 30%;
     height: 300px;
     padding-top: 1px;
     border-radius: 8px;
-    margin-top: -494px;
+    margin-top: -550px;
     margin-left: 840px;
     box-shadow: 0px 1px 10px #e3e1e1;
 }
@@ -232,25 +246,26 @@ body {
     padding-bottom: 10px;
 }
 
-.bg2 hr{
+.bg2 hr {
     margin-top: 20px;
 }
 
-.documentotexto{
+.documentotexto {
     font-size: 14px;
     color: #656D77;
     line-height: 1.5;
     margin-left: 20px;
     margin-top: -25px;
 }
-    
-.documentocor{
+
+.documentocor {
     font-size: 14px;
     line-height: 1.5;
     margin-left: 20px;
-    color: #027A48;
+    color: #12B76A;
 }
-.bg2 p:nth-last-child(3){
+
+.bg2 p:nth-last-child(3) {
     color: #12B76A;
 }
 
@@ -261,46 +276,46 @@ body {
 
 
 .bg2 button {
-    display: inline-block;
-    margin-left: 340px;
-    margin-top: 40px;
-    padding: 8px 16px;
-    background-color: white;
-    border: 1px solid #67b167;
-    cursor: pointer;
+    color: #12B76A;
+    font-size: 10px;
+    font-weight: 700;
+    margin-left: 325px;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #ffff;
+    border: 1.5px solid #12B76A;
+    border-radius: 2px;
 }
 
-.documentox{
-    position: relative;
-    left:385px;
+.documentox {
+    position: relative;;
+    left: 375px;
     bottom: 34px;
     width: 15px;
 }
 
-footer{
+footer {
     padding: 10px 20px;
-    position: fixed;
-    bottom: 0;
+    position: relative;
+    top: 300px;
     width: 100%;
-    box-sizing: border-box;  
+    box-sizing: border-box;
 }
 
-.footer-left{
+.footer-left {
     color: #656D77;
     margin-left: 200px;
 }
-.footer-right{
+
+.footer-right {
     position: relative;
     bottom: 35px;
     color: #656D77;
-    margin-left: 900px;
+    margin-left: 800px;
 }
 
-footer ul li{
-    
+footer ul li {
     margin-left: 30px;
     display: inline;
     list-style: none;
-    list-style: none;
 }
-    

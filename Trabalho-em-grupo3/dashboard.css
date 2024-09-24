@@ -1,4 +1,3 @@
-
 body {
     background-color: #f1f1f1;
     font-family: 'Inter';
@@ -43,7 +42,7 @@ body {
 }
 
 .header2 ul {
-    margin-top: -47px;
+    margin-top: -57px;
     margin-left: 80px;
 }
 
@@ -55,8 +54,11 @@ body {
 }
 
 .header2 ul li:nth-last-child(1) {
-    margin-left: 675px;
+    margin-left: 915px;
     font-weight: 700;
+    border: #dfdfdf solid 1px;
+    padding: 8px 40px;
+    border-radius: 6px;
 }
 
 .header2 ul li:nth-last-child(4) {
@@ -64,12 +66,45 @@ body {
     font-weight: 700;
 }
 
+.setaprabaixo{
+    position: relative;
+    width: 14px;
+    left: 1400px;
+    bottom: 8px;
+}
+.usuario{
+    position: relative;
+    width: 14px;
+    left: 1290px;
+    bottom: 7px;
+}
+
 .casinha-inicial {
     position: relative;
     bottom: 9px;
-    left: 110px;
+    left: 115px;
     width: 20px;
 
+}
+.documento{
+    position: relative;
+    bottom: 9px;
+    left: 250px;
+    width: 13px;
+}
+
+.ajuda{
+    position: relative;
+    bottom: 9px;
+    left: 425px;
+    width: 13px;
+}
+
+.saida{
+    position: relative;
+    bottom: 9px;
+    width: 19px;
+    left: 1410px;
 }
 
 .bg1 {
@@ -101,6 +136,15 @@ body {
     color: #656D77;
     margin-left: 90px;
     margin-bottom: 50px;
+}
+
+.linhavertical{
+    position: relative;
+    width: 34px;
+    size: 100px;
+    transform: rotate(90deg);
+    top: 308px;
+    right: 700px;
 }
 
 .bg1 p:nth-last-child(7) {
@@ -175,16 +219,16 @@ body {
     padding-top: 1px;
     border-radius: 8px;
     margin-top: -494px;
-    margin-left: 700px;
+    margin-left: 840px;
     box-shadow: 0px 1px 10px #e3e1e1;
 }
 
 .bg2 h1 {
-    font-size: 20px;
+    font-size: 25px;
     color: #0C2A43;
     margin-top: 15px;
     margin-left: 45px;
-    font-weight: 600;
+    font-weight: 650;
     padding-bottom: 10px;
 }
 
@@ -192,11 +236,19 @@ body {
     margin-top: 20px;
 }
 
-.bg2 p {
+.documentotexto{
     font-size: 14px;
     color: #656D77;
     line-height: 1.5;
     margin-left: 20px;
+    margin-top: -25px;
+}
+    
+.documentocor{
+    font-size: 14px;
+    line-height: 1.5;
+    margin-left: 20px;
+    color: #027A48;
 }
 .bg2 p:nth-last-child(3){
     color: #12B76A;
@@ -210,21 +262,45 @@ body {
 
 .bg2 button {
     display: inline-block;
-    margin-left: 240px;
-    margin-top: 45px;
+    margin-left: 340px;
+    margin-top: 40px;
     padding: 8px 16px;
     background-color: white;
     border: 1px solid #67b167;
-    border-radius: 5px;
-    color: #67b167;
-    font-size: 14px;
     cursor: pointer;
 }
 
-footer {
+.documentox{
+    position: relative;
+    left:385px;
+    bottom: 34px;
+    width: 15px;
+}
+
+footer{
     padding: 10px 20px;
     position: fixed;
     bottom: 0;
     width: 100%;
-    box-sizing: border-box;
+    box-sizing: border-box;  
 }
+
+.footer-left{
+    color: #656D77;
+    margin-left: 200px;
+}
+.footer-right{
+    position: relative;
+    bottom: 35px;
+    color: #656D77;
+    margin-left: 900px;
+}
+
+footer ul li{
+    
+    margin-left: 30px;
+    display: inline;
+    list-style: none;
+    list-style: none;
+}
+    
